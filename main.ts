@@ -11,7 +11,7 @@ input.onButtonPressed(Button.B, function () {
     radio.sendString("N")
 })
 input.onGesture(Gesture.Shake, function () {
-    radio.sendString("No Comment")
+    basic.clearScreen()
 })
 radio.setGroup(162)
 basic.forever(function () {
